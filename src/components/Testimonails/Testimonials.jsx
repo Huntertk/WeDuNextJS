@@ -44,8 +44,10 @@ const Testimonials = () => {
             <p className={styles.para}>
                 {data.desc}
             </p>
+            <div>
             <h1 className={styles.title}>{data.title},</h1>
             <h1 className={styles.title}>{data.address}</h1>
+            </div>
         </div>
       </div>
       })}

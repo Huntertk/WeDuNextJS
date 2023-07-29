@@ -40,7 +40,9 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
 }
 .para{
     letter-spacing: 1px;
