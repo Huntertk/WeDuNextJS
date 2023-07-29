@@ -3,10 +3,7 @@
 import React, { useState } from 'react'
 import styles from './page.module.css'
 
-export const metadata = {
-  title: 'Price',
-  description: 'Products Page',
-}
+
 
 const Price = () => {
     const [seeMore, setSeeMore] = useState(false)
