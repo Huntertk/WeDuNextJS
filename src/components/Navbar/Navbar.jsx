@@ -16,10 +16,12 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
-        <div className={styles.titleContainer}>
-          <h1 className={styles.title}>WeDu</h1>
-          <p className={styles.slogan}>Communicate. Collaborate. Create.</p>
-        </div>
+        <Link href="/">
+          <div className={styles.titleContainer}>
+            <h1 className={styles.title}>WeDu</h1>
+            <p className={styles.slogan}>Communicate. Collaborate. Create.</p>
+          </div>
+        </Link>
         <div className={styles.navLinksContainer}>
           <div 
           className={styles.navBtnContainer}

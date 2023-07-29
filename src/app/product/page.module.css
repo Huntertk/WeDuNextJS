@@ -17,7 +17,8 @@
     width: 50%;
     height: 200px;
 }
-.img{
+.img,
+.heroImg{
     border-radius: 10px;
 }
 
@@ -30,4 +31,42 @@
     letter-spacing: 1px;
     line-height: 1.6;
     font-size: 1.1rem;
+}
+
+.imgHeroContainer{
+    position: relative;
+    height: 300px;
+}
+
+
+.partnerContainer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    border-radius: 16px;
+}
+.logoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.companyLogoContainer{
+    position: relative;
+    height: 100px;
+    width: 40%;
+}
+.testimonails{
+    margin-top: 2rem;
+    text-align: center;
+}
+.underline{
+    height: 5px;
+    margin: 1rem auto;
+    background-color: #bbb;
+    width: 10%;
+    border-radius: 10px;
 }
