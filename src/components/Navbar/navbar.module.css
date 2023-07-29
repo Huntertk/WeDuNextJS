@@ -25,7 +25,8 @@
 .icon{
     font-size: 2rem;
 }
-.navLinksWrapper{
+.navLinksWrapper,
+.navLinksWrapperBig{
     z-index: 100;
     height: 40vh;
     display: flex;
@@ -44,11 +45,17 @@
     -webkit-animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+.navLinksWrapperBig{
+    display: none;
+}
 .navLink{
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 1px;
 }
+
+
+
 
 
 
@@ -81,5 +88,34 @@
         transform: scaleX(1);
         -webkit-transform-origin: 100% 100%;
         transform-origin: 100% 100%;
+    }
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 768px) {
+    .navLinksWrapper,
+    .navLinksWrapperBig{
+        position: unset;
+        flex-direction: row;
+        align-items: center;
+        width: unset;
+        height: unset;
+        background-color: unset;
+        gap: 1rem;
+        display: none;
+    }
+    .navLinksWrapperBig{
+        display: flex;
+    }
+    .navLink{
+        font-size: 1rem;
+    }
+    .navBtnContainer{
+        display: none;
+    }
+    .navLink:hover{
+        color: red;
     }
 }

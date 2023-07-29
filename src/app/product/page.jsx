@@ -53,8 +53,10 @@ const Products = () => {
         <div className={styles.imgHeroContainer}>
           <Image src="/imgback.png" fill={true} alt="" className={styles.heroImg} />
         </div>
+        <div className={styles.heroContentContainer}>
           <h1 className={styles.title}>Built for Creatives, by Creatives</h1>
           <p className={styles.para}>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
       </div>
       <div className={styles.partnerContainer}>
          <h1 className={styles.title}>"Trusted Among Industry Leaders"</h1>
@@ -63,31 +65,28 @@ const Products = () => {
         <div className={styles.logoContainer}>
 
           <div className={styles.companyLogoContainer}>
-            <Image src="/1.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/One.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/2.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Two.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/3.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Three.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/4.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Four.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/5.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Five.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/6.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Six.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/6.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Seven.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
           <div className={styles.companyLogoContainer}>
-            <Image src="/7.jpg" fill={true} alt="" className={styles.companyLogo} />
-          </div>
-          <div className={styles.companyLogoContainer}>
-            <Image src="/8.jpg" fill={true} alt="" className={styles.companyLogo} />
+            <Image src="/Eight.webp" fill={true} alt="" className={styles.companyLogo} />
           </div>
         </div>
 

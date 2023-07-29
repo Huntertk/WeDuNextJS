@@ -1,4 +1,6 @@
 .container{
+    display: flex;
+    flex-direction: column;
     margin-top: 5rem;
     padding: 1rem;
 }
@@ -69,4 +71,52 @@
     background-color: #bbb;
     width: 10%;
     border-radius: 10px;
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 768px) {
+    .container{
+        align-items: center ;
+    }
+    .productContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ProductCard{
+        text-align: center;
+        width: 40%;
+    }
+    .imgContainer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heroSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imgHeroContainer{
+        width: 50%;
+    }
+    .heroContentContainer{
+        width: 50%;
+    }
+
+    .partnerContainer{
+        flex-direction: column-reverse;
+    }
+    .logoContainer{
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+    .companyLogoContainer{
+        width: 18%;
+        height: 150px;
+    }
 }

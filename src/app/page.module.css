@@ -41,3 +41,30 @@
     outline: none;
     border-radius: 10px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        height: 100vh;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+        padding: 0 1rem;
+    }
+    .imgContainer{
+        position: relative;
+        z-index: unset;
+        height: 400px;
+        width: 60%;
+    }
+    .image{
+        width: 150px;
+    }
+    .btn{
+        padding: 1rem;
+        width: unset;
+        margin: 1rem 0;
+    }
+}

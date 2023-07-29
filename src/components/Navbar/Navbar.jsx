@@ -55,6 +55,23 @@ const Navbar = () => {
             >Contact</Link>
           </div>
           }
+          <div className={styles.navLinksWrapperBig}>
+            <Link href="/"
+            className={styles.navLink}
+            >Home</Link>
+
+            <Link href="/product"
+            className={styles.navLink}
+            >Product</Link>
+
+            <Link href="/price"
+            className={styles.navLink}
+            >Pricing Plans</Link>
+
+            <Link href="/contact"
+            className={styles.navLink}
+            >Contact</Link>
+          </div>
         </div>
       </nav>
     </div>
