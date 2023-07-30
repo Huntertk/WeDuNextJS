@@ -31,7 +31,7 @@ const Price = () => {
                     return prev ? false : true
                 })
             }}
-            >See More</button>
+            >{seeMore ? "See Less" : "See More"}</button>
         </div>
         {
             seeMore && <div className={styles.priceCardBottomContent}>

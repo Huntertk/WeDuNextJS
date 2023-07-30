@@ -68,3 +68,15 @@
         margin: 1rem 0;
     }
 }
+
+@media screen and (min-width: 1023px) {
+    .container{
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imgContainer{
+        width: 40%;
+        height: 400px;
+    }
+}

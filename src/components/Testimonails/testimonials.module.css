@@ -17,8 +17,8 @@
 .cardHeader{
     background-color: #bbb;
     height: 40px;
-    border-top-left-radius  : 19px;
-    border-top-right-radius  : 19px;
+    border-top-left-radius  : 16px;
+    border-top-right-radius  : 16px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -77,4 +77,14 @@
     .cardContainer{
         width: 45%;
     }   
+}
+
+
+@media screen and (min-width: 1023px) {
+    .container{
+        max-width: 1180px;
+    }
+    .cardContainer{
+        width: 30%;
+    }
 }
